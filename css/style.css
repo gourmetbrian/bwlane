@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+html,
+body {
+/*  #8c8c8c  */
+  background: linear-gradient(#a1d7ec, transparent 90%), linear-gradient(0deg, #90c1d4, transparent), no-repeat center;
+  display: table;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* Text Styles */
+
+h1,
+h2,
+h3,
+li{
+  color: #fff;
+  padding: 0px;
+  margin: 0px;
+}
+
+li {
+  font-size: 1.5em;
+}
+
+ul {
+  text-align: left;
+}
+
+a:hover {
+  color: blue;
+}
+
+a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+a.mail,
+a.mail:hover {
+  color: #fff;
+  text-decoration: none;
+}
+.hero h1 {
+  font-size: 5em;
+}
+/* Section Styles */
+
+.hero {
+  margin-top: 15px;
+  text-align: center;
+  height: 50px;
+}
+#homeSection {
+  margin: 5px;
+  height: 600px;
+}
+
+.bio {
+  margin-top: 10%;
+  text-align: center;
+}
+.links {
+  margin-top: 10%;
+  text-align: center;
+}
+
+#videoSection {
+  height: 600px;
+  text-align: center;
+}
